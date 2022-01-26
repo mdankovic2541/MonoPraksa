@@ -1,0 +1,31 @@
+USE webapi;
+
+CREATE TABLE smjer
+(
+	id INT IDENTITY(1,1) PRIMARY KEY ,
+	naziv VARCHAR(200)
+	
+);
+
+CREATE TABLE student
+(
+	id INT IDENTITY(1,1) PRIMARY KEY,
+	firstName VARCHAR(30),
+	lastName VARCHAR(30),
+	idNumber VARCHAR(11),
+	smjerId INT FOREIGN KEY REFERENCES smjer(id)
+
+);
+
+
+INSERT INTO smjer(naziv) VALUES ('Računarstvo');
+INSERT INTO smjer(naziv) VALUES ('Elektroenergetika');
+INSERT INTO smjer(naziv) VALUES ('Automatika');	
+INSERT INTO student (firstName,lastName,idNumber,smjerId) VALUES ('Marko','Danković','1234567890',1);
+INSERT INTO student (firstName,lastName,idNumber,smjerId) VALUES ('Ivo','Ivić','0987654321',2);
+INSERT INTO student (firstName,lastName,idNumber,smjerId) VALUES ('Pero','Perić','5432167890',1);
+INSERT INTO student (firstName,lastName,idNumber,smjerId) VALUES ('Mato','Matić','9876123450',3);
+
+SELECT * FROM smjer;
+SELECT * FROM student;
+
