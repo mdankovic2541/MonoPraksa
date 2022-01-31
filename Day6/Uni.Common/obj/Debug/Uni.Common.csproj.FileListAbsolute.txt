@@ -1,0 +1,5 @@
+C:\Users\Marko\source\repos\Day2WebAPI\Uni.Common\bin\Debug\Uni.Common.dll
+C:\Users\Marko\source\repos\Day2WebAPI\Uni.Common\bin\Debug\Uni.Common.pdb
+C:\Users\Marko\source\repos\Day2WebAPI\Uni.Common\obj\Debug\Uni.Common.csproj.CoreCompileInputs.cache
+C:\Users\Marko\source\repos\Day2WebAPI\Uni.Common\obj\Debug\Uni.Common.dll
+C:\Users\Marko\source\repos\Day2WebAPI\Uni.Common\obj\Debug\Uni.Common.pdb
