@@ -1,5 +1,0 @@
-C:\Users\Marko\source\repos\Day2WebAPI\Uni.Model\bin\Debug\Uni.Model.dll
-C:\Users\Marko\source\repos\Day2WebAPI\Uni.Model\bin\Debug\Uni.Model.pdb
-C:\Users\Marko\source\repos\Day2WebAPI\Uni.Model\obj\Debug\Uni.Model.Common.csproj.CoreCompileInputs.cache
-C:\Users\Marko\source\repos\Day2WebAPI\Uni.Model\obj\Debug\Uni.Model.dll
-C:\Users\Marko\source\repos\Day2WebAPI\Uni.Model\obj\Debug\Uni.Model.pdb
