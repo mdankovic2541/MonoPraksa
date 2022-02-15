@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="student.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+</head>
+<body>
+    <div><a href="index.html">Back to my page.</a><br>
+    <a href="todo.html">TODO LIST APP FROM VIDEO TUTORIAL</a></div>
+
+    
+    <div>
+        <form action="" method="post">
+            <label for="firstName">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Enter your first name here">
+            <label for="firstName">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Enter your last name here">
+            <label for="firstName">Age</label>
+            <input type="number" name="age" id="age" placeholder="Enter your age here">
+            <button id="btnAdd" onclick="insertUser()">Add new user</button>
+            <button id="btnAdd" onclick="deleteUser()">Delete user</button>
+        </form>
+    </div>
+
+    <div>
+        <table id="table">
+        <tr>
+          <th>First Name&nbsp;&nbsp;</th>
+          <th>Last Name&nbsp;&nbsp;</th>
+          <th>Age&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+          <td>Alfreds</td>
+          <td>Futterkiste</td>
+          <td>22</td>
+        </tr>   
+      </table>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+</html>

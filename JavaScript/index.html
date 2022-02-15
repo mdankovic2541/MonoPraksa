@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonoPraksa</title>
+</head>
+<body>
+    <nav>
+        <div>
+        <h1>MonoPraksa</h1>
+    </div>
+        <ul class="ulitems">
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+            <li id="newItem"></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="formDiv">
+            <p id="time"></p>
+            <form action="#">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Insert your name here.">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="btnDiv">
+            <button id="btn1" onclick="sendMessage()">Click me!</button>
+            <button id="btn2" onclick="getTime()">It is time,my son!</button>
+            <button id="btn3" onclick="addName()">No, click on me! Trust me!</button>
+            <button id="btn4" onclick="deleteAll()">Why am I the last one?</button>
+        </div>
+    </main>
+    <div><a href="todo.html">TODO LIST APP FROM VIDEO TUTORIAL</a><br>
+    <a href="student.html">New student page</a></div>
+    <footer>
+        <div id="myName">
+            <h3>Marko Danković</h3>
+        </div>
+        
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

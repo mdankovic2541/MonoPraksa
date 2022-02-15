@@ -1,0 +1,52 @@
+
+body{
+    background-color: silver;
+}
+
+h1 {
+    color: orangered;
+    border: 2px dashed;
+    border-color: blue red green yellow;
+    padding: 1% 5%;
+}
+
+.ulitems{
+    border: 5px double black;
+}
+
+form {
+    border: 2px solid grey ;
+    background-color: silver;
+    margin: 2% 5%;
+    padding: 5%;
+}
+
+#myName  {
+    background-color: red;
+    text-align: center;
+}
+
+#myName :hover {
+    background-color: blue;
+    transform: rotate(180deg);
+}
+
+#formDiv {
+    border: 1px solid red ;
+    background-color: aliceblue;
+    border-radius: 100px;
+}
+
+.btnDiv{    
+    text-align: center;
+    margin-top: 10px;
+}
+
+div{
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;   
+}
